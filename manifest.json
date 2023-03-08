@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Tabs to Clipboard",
+	"version": "1.0.0",
+	
+	"author": "geode42",
+	"homepage_url": "https://github.com/geode42/tabs-to-clipboard",
+	"icons": {
+		"128": "icon.svg"
+	},
+
+	"description": "Copies every tab in the currently active window to your clipboard",
+	"browser_action": {
+		"default_icon": "icon.svg"
+	},
+	
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"tabs"
+	]
+}
