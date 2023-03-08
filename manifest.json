@@ -9,7 +9,7 @@
 		"128": "icon.svg"
 	},
 
-	"description": "Copies every tab in the currently active window to your clipboard",
+	"description": "Copies every tab in the currently active window to your clipboard whenever you click its icon",
 	"browser_action": {
 		"default_icon": "icon.svg"
 	},
